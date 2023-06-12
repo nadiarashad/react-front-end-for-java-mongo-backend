@@ -12,7 +12,7 @@ function ListEmployeeComponent (){
         EmployeeService.getEmployees().then(res => {
             setEmployees(res.data);
         })
-        }, [employees]);
+        }, []);
    
     const deleteEmployee = (id) => {
 
